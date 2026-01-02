@@ -30,6 +30,12 @@ At the core runs Proxmox and Docker (LXC Container, soon to be run by Kubernetes
 
 <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHuQZk0m7RDQg/profile-treasury-image-shrink_800_800/B4EZpIbaRaIQAY-/0/1762151737903?e=1767974400&v=beta&t=6nsqhLj6BAif2YVL7wPBRMbqTJ3DVQBiz0OEbVl1bQk" alt="Mat's HomeLab">
 
+The QNAP hosts all my personal data as well as the 2nd PBS weekly backups on to an all flash based NFS share.
+It runs daily snapshots and weekly backups on to a Terramaster nested DSM7 🤫
+
+Monthly backups are send to TrueNAS Scale hosted on an aging DELL T320.
+Quarterly dumps (in case I do remember) go on to LTO tapes via Acronis which are swapped over regularly and stored externally.
+
 Routing and firewall is handled by an virt OPNsense and 3x multi-gig switches.
 
 I host these services:
@@ -59,7 +65,3 @@ Further projects in the near future:
 - VMware 9 & Veeam BR trials
 - Prometheus, Grafana
 - Helm, Terraform, Ansible 
-
-The QNAP hosts all my personal data as well as the 2nd PBS weekly backups on to an all flash based NFS share. It runs daily snapshots and weekly backups on to a Terramaster nested DSM7 🤫
-
-Monthly backups are send to TrueNAS Scale hosted on an aging DELL T320. Quarterly dumps (in case I do remember) go on to LTO tapes via Acronis which are swapped over regularly and stored externally.
