@@ -1,13 +1,14 @@
-<h1 align="center">Hi 👋, I'm Mat (Mathias) Lemke</h1>
-<h3 align="center">A bi-lingual (Brit. English & German) tech enthusiast with about 2x decades of experience focused on GNU/Linux, virtualisation, storage and backup solutions.</h3>
+Hi 👋, I'm Mat (Mathias) Lemke
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mat-automation&label=Profile%20views&color=0e75b6&style=flat" alt="mat-automation" /> </p>
+A tech enthusiast with about 2x decades of experience focused on GNU/Linux, virtualisation, storage and backup solutions.
 
 Storage Engineer, Storage Admin. I work mainly with Linux as well as w/ NetApp & DELL-EMC PowerScale.
 
 🌱 I’m currently learning to become an **DevOps Engineer** specialiast for Storage Systems
 
 Also I'm an open source enthusiast #Arch #Linux 🐧
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=mat-automation&label=Profile%20views&color=0e75b6&style=flat" alt="mat-automation" /> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
