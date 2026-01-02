@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mat (Mathias) Lemke</h1>
-<h3 align="center">A bi-lingual (Brit. English & German) tech enthusiast with two decades of experience focused on GNU/Linux, virtualisation, storage and backup solutions.</h3>
+<h3 align="center">A bi-lingual (Brit. English & German) tech enthusiast with about 2x decades of experience focused on GNU/Linux, virtualisation, storage and backup solutions.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mat-automation&label=Profile%20views&color=0e75b6&style=flat" alt="mat-automation" /> </p>
 
