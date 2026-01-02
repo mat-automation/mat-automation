@@ -28,6 +28,8 @@ At the core runs Proxmox and Docker (LXC Container, soon to be run by Kubernetes
 - PVE x2 (Minis Forum MS-01 & HUNSN RJ03)
 - PBS (HUNSN RJ42)
 
+<img src="https://media.licdn.com/dms/image/v2/D4E2DAQHuQZk0m7RDQg/profile-treasury-image-shrink_800_800/B4EZpIbaRaIQAY-/0/1762151737903?e=1767974400&v=beta&t=6nsqhLj6BAif2YVL7wPBRMbqTJ3DVQBiz0OEbVl1bQk" alt="Mat's HomeLab">
+
 Routing and firewall is handled by an virt OPNsense and 3x multi-gig switches.
 
 I host these services:
@@ -48,6 +50,10 @@ I host these services:
 - a few Linux VM to catch up with their latest developments
 - 2x Kubernetes cluster: Talos & K3S on Debian 13
 - virt 3x node PVE cluster w/ ceph storage
+
+<img src="https://media.licdn.com/dms/image/v2/D4D2DAQEHyBARJW8N3w/profile-treasury-image-shrink_800_800/B4DZt6BSCZIkAY-/0/1767278717837?e=1767974400&v=beta&t=DjspNR8CutX1TfsD3yCo0tz7VK4-ZjhsJANQX0T1rZM" alt="Talos Linux - Kubernetes Cluster on Proxmox">
+
+<img src="https://media.licdn.com/dms/image/v2/D4D2DAQFREKeUBzSJTA/profile-treasury-image-shrink_800_800/B4DZt0sO36JkAY-/0/1767189316314?e=1767974400&v=beta&t=X09gTHYKs-LeqLvRgABhNGcntWbgNDviHt5ShQWgsCE" alt="virt. K3S Cluster on Proxmox">
 
 Further projects in the near future:
 - VMware 9 & Veeam BR trials
