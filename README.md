@@ -29,8 +29,6 @@ At the core runs Proxmox and Docker (LXC Container, soon to be run by Kubernetes
 - PVE x2 (Minis Forum MS-01 & HUNSN RJ03)
 - PBS (HUNSN RJ42)
 
-<img src="https://media.licdn.com/dms/image/v2/D4E2DAQHuQZk0m7RDQg/profile-treasury-image-shrink_800_800/B4EZpIbaRaIQAY-/0/1762151737903?e=1767974400&v=beta&t=6nsqhLj6BAif2YVL7wPBRMbqTJ3DVQBiz0OEbVl1bQk" alt="Mat's HomeLab">
-
 The QNAP hosts all my personal data as well as the 2nd PBS weekly backups on to an all flash based NFS share.
 It runs daily snapshots and weekly backups on to a Terramaster nested DSM7 🤫
 
@@ -58,9 +56,8 @@ I host these services:
 - 2x Kubernetes cluster: Talos & K3S on Debian 13
 - virt 3x node PVE cluster w/ ceph storage
 
-<img src="https://media.licdn.com/dms/image/v2/D4D2DAQEHyBARJW8N3w/profile-treasury-image-shrink_800_800/B4DZt6BSCZIkAY-/0/1767278717837?e=1767974400&v=beta&t=DjspNR8CutX1TfsD3yCo0tz7VK4-ZjhsJANQX0T1rZM" alt="Talos Linux - Kubernetes Cluster on Proxmox">
+<img width="2112" height="3073" alt="PXL_20260617_043629464~2" src="https://github.com/user-attachments/assets/03ef20fd-9d08-49f3-a860-dc819182c82e" />
 
-<img src="https://media.licdn.com/dms/image/v2/D4D2DAQFREKeUBzSJTA/profile-treasury-image-shrink_800_800/B4DZt0sO36JkAY-/0/1767189316314?e=1767974400&v=beta&t=X09gTHYKs-LeqLvRgABhNGcntWbgNDviHt5ShQWgsCE" alt="virt. K3S Cluster on Proxmox">
 
 Further projects in the near future:
 - VMware 9 & Veeam BR trials
