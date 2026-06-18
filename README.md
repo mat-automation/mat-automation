@@ -24,37 +24,48 @@ Also I'm an open source enthusiast #Arch #Linux 🐧
 
 I'm in love with my HomeLab because there is always something exciting and new to learn.
 
-At the core runs Proxmox and Docker (LXC Container, soon to be run by Kubernetes) to serve several basic IT needs:
+At the core of my HomeLab runs Proxmox VE and Docker (LXC Container, soon to be run by Kubernetes) nowadays to serve several basic IT needs.
 
-- PVE x2 (Minis Forum MS-01 & HUNSN RJ03)
-- PBS (HUNSN RJ42)
+Hardware:
+- Minisforum MS-01, PVE (Intel i9, 96GB RAM, 5TB nvme)
+- HUNSN RJ42, PBS (Intel N100, 32GB RAM, RAIDZ> 2x 1TB nvme + 1x 1TB SSD)
+- HUNSN RJ03, TrueNAS (Intel N5105, 32GB RAM, 2x 1TB SSD)
 
-The QNAP hosts all my personal data as well as the 2nd PBS weekly backups on to an all flash based NFS share.
-It runs daily snapshots and weekly backups on to a Terramaster nested DSM7 🤫
+Storages:
+- Main> QNAP TVS-951X 3x 18TB EXOS
+- Bck> DSM7 🤫 (Terramaster) mixed 27TB usable
+- Bck> TrueNAS (DELL T320) 8x 4TB Ironwolf
+- Archive> LTO5/6 tapes
 
-Monthly backups are send to TrueNAS Scale hosted on an aging DELL T320.
-Quarterly dumps (in case I do remember) go on to LTO tapes via Acronis which are swapped over regularly and stored externally.
+Routing and firewall is handled by an virt. OPNsense (incl. Zenarmor) and a few multi-gig switches.
 
-Routing and firewall is handled by an virt OPNsense and 3x multi-gig switches.
-
-I host these services:
-- OPNsense Firewall
-- AdGuard/ Pi-hole & Win Srv (DC/DNS)
+I host these main services either as LXC or VM:
+- OPNsense + Zenarmor
+- AdGuard/ Pihole (Ad-block)
+- Win Srv (DC/DNS)
 - phpIPAM
-- Heimdall, a bookmark manager
-- virt NAS (incl. the media server Jellyfin)
+- Heimdall, bookmark manager
+- virt NAS (incl. Plex & Jellyfin)
 - Nextcloud
-- Vaultwarden, a private hosted password manager based on Bitwarden
-- Immich, an automatic private photo & video backup for all mobile devices
-- home assistant
-- audiobookshelf, a web app to manage my audiobooks and podcasts
+- Vaultwarden, private hosted pw manager
+- Immich, automatic private photo & video backup
+- Home assistant, monitor solar
+- Audiobookshelf, web app to manage audiobooks and podcasts
 - Paperless ngx
-- Uptime Kuma, CheckMK & Pulse, simple monitoring of all services and IT appliances
+- Uptime Kuma, Beszel, Pulse & CheckMK, monitoring of most services and appliances
+- MeTube
+
+In validation: NetBox, Homelable, Rackula, Stirling-PDF
+
+In order to stay up2date:
+- VMware ESXi 8: Quantum DXi V5000 (De-Dup Appliance)
+- 2x Kubernetes cluster for self study: Talos & K3S on Debian 13
 
 🔭 I’m currently working on
 - a few Linux VM to catch up with their latest developments
 - 2x Kubernetes cluster: Talos & K3S on Debian 13
 - virt 3x node PVE cluster w/ ceph storage
+
 
 <img width="2112" height="3073" alt="PXL_20260617_043629464~2" src="https://github.com/user-attachments/assets/03ef20fd-9d08-49f3-a860-dc819182c82e" />
 
