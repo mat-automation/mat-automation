@@ -64,8 +64,7 @@ In validation: NetBox, Homelable, Rackula, Stirling-PDF
 - 2x Kubernetes cluster: Talos & K3S on Debian 13
 
 
-<img width="2112" height="3073" alt="PXL_20260617_043629464~2" src="https://github.com/user-attachments/assets/03ef20fd-9d08-49f3-a860-dc819182c82e" />
-
+<img width="2101" height="3736" alt="PVE-cluster-and-PBS" src="https://github.com/user-attachments/assets/e1f59955-0935-4e01-84e7-2c0d0d891070" />
 
 Further projects in the near future:
 - VMware 9 & Veeam BR trials
