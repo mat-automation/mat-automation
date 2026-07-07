@@ -24,12 +24,12 @@ Also I'm an open source enthusiast #Arch #Linux 🐧
 
 I'm in love with my HomeLab because there is always something exciting and new to learn.
 
-At the core of my HomeLab runs Proxmox VE and Docker (LXC Container, soon to be run by Kubernetes) nowadays to serve several basic IT needs.
+At the core of my HomeLab runs Proxmox VE and Docker (LXC Container) nowadays to serve several basic IT needs.
 
-Hardware:
-- Minisforum MS-01, PVE (Intel i9, 96GB RAM, 5TB nvme)
-- HUNSN RJ42, PBS (Intel N100, 32GB RAM, RAIDZ> 2x 1TB nvme + 1x 1TB SSD)
-- HUNSN RJ03, TrueNAS (Intel N5105, 32GB RAM, 2x 1TB SSD)
+3-node HA /ceph Cluster:
+- 2x Minisforum MS-01, PVE (Intel i5 and i9, each 48GB RAM)
+- 1x HUNSN RJ42, PVE (Intel N100, 32GB RAM)
+- 1x HUNSN RJ03, PBS (Intel N5105, 32GB RAM)
 
 Storages:
 - Main> QNAP TVS-951X 3x 18TB EXOS
@@ -55,16 +55,13 @@ I host these main services either as LXC or VM:
 - Uptime Kuma, Beszel, Pulse & CheckMK, monitoring of most services and appliances
 - MeTube
 
-In validation: NetBox, Homelable, Rackula, Stirling-PDF
+- used to VMware ESXi 8: Quantum DXi V5000 (De-Dup Appliance)
 
-In order to stay up2date:
-- VMware ESXi 8: Quantum DXi V5000 (De-Dup Appliance)
-- 2x Kubernetes cluster for self study: Talos & K3S on Debian 13
+In validation: NetBox, Homelable, Rackula, Stirling-PDF
 
 🔭 I’m currently working on
 - a few Linux VM to catch up with their latest developments
 - 2x Kubernetes cluster: Talos & K3S on Debian 13
-- virt 3x node PVE cluster w/ ceph storage
 
 
 <img width="2112" height="3073" alt="PXL_20260617_043629464~2" src="https://github.com/user-attachments/assets/03ef20fd-9d08-49f3-a860-dc819182c82e" />
@@ -72,5 +69,4 @@ In order to stay up2date:
 
 Further projects in the near future:
 - VMware 9 & Veeam BR trials
-- Prometheus, Grafana
-- Helm, Terraform, Ansible 
+- Prometheus, Grafanam Helm, Terraform, Ansible 
