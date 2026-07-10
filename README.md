@@ -66,6 +66,12 @@ In validation: NetBox, Homelable, Rackula, Stirling-PDF
 
 <img width="2101" height="3736" alt="PVE-cluster-and-PBS" src="https://github.com/user-attachments/assets/e1f59955-0935-4e01-84e7-2c0d0d891070" />
 
+<img width="2101" height="3736" alt="PVE-overview" src="https://github.com/mat-automation/mat-automation/blob/main/3node-homelab-pve-cluster.jpg" />
+
+<img width="2101" height="3736" alt="Homepage-Dashboard-p1" src="https://github.com/mat-automation/mat-automation/blob/main/homepage-p1.jpg" />
+
+<img width="2101" height="3736" alt="Homepage-Dashboard-p2" src="https://github.com/mat-automation/mat-automation/blob/main/homepage-p2.jpg" />
+
 Further projects in the near future:
 - VMware 9 & Veeam BR trials
 - Prometheus, Grafanam Helm, Terraform, Ansible 
