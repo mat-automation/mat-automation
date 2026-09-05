@@ -40,11 +40,10 @@ Storages:
 Routing and firewall is handled by an virt. OPNsense (incl. Zenarmor) and a few multi-gig switches.
 
 I host these main services either as LXC or VM:
-- OPNsense + Zenarmor
-- AdGuard/ Pihole (Ad-block)
-- Win Srv (DC/DNS)
+- OPNsense
+- Technitium Cluster (DNS & Ad-block)
 - phpIPAM
-- Heimdall, bookmark manager
+- Homepage, dashboard
 - virt NAS (incl. Plex & Jellyfin)
 - Nextcloud
 - Vaultwarden, private hosted pw manager
@@ -54,14 +53,21 @@ I host these main services either as LXC or VM:
 - Paperless ngx
 - Uptime Kuma, Beszel, Pulse & CheckMK, monitoring of most services and appliances
 - MeTube
+- Stirling-PDF
 
-- used to VMware ESXi 8: Quantum DXi V5000 (De-Dup Appliance)
+In validation: NetBox, Homelable, Rackula
 
-In validation: NetBox, Homelable, Rackula, Stirling-PDF
+Historically kept
+- Win Srv (DC/DNS)
+- Win 11 client (i.e. Veeam)
+- Heimdall, bookmark manager
 
-🔭 I’m currently working on
+- I used to run VMware ESXi 8: Quantum DXi V5000 (De-Dup Appliance)
+- In validation: NetBox, Homelable, Rackula
+
+🔭 I’m currently working on (DevOps, Kubernetes home-study):
+- Kubernetes cluster: K3S on Debian 13, RKE2 and Rancher w/ Longhorn on Rocky 10
 - a few Linux VM to catch up with their latest developments
-- 2x Kubernetes cluster: Talos & K3S on Debian 13
 
 
 <img width="2101" height="3736" alt="PVE-cluster-and-PBS" src="https://github.com/user-attachments/assets/e1f59955-0935-4e01-84e7-2c0d0d891070" />
@@ -73,5 +79,5 @@ In validation: NetBox, Homelable, Rackula, Stirling-PDF
 <img width="2101" height="3736" alt="Homepage-Dashboard-p2" src="https://github.com/mat-automation/mat-automation/blob/main/homepage-p2.jpg" />
 
 Further projects in the near future:
-- VMware 9 & Veeam BR trials
 - Prometheus, Grafanam Helm, Terraform, Ansible 
+- VMware 9 & Veeam BR trials
