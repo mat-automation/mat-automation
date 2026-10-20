@@ -29,13 +29,15 @@ At the core of my HomeLab runs Proxmox VE and Docker (LXC Container) nowadays to
 3-node HA /ceph Cluster:
 - 2x Minisforum MS-01, PVE (Intel i5 and i9, each 48GB RAM)
 - 1x HUNSN RJ42, PVE (Intel N100, 32GB RAM)
-- 1x HUNSN RJ03, PBS (Intel N5105, 32GB RAM)
+
+2x single node PVE nested Proxmox Backup Server:
+- 1x HUNSN RJ03, runs daily (Intel N5105, 32GB RAM)
+- 1x DELL T320, runs weekly + daily merged (Intel Xeon, 96GB RAM)
 
 Storages:
 - Main> QNAP TVS-951X 3x 18TB EXOS
 - Bck> DSM7 🤫 (Terramaster) mixed 27TB usable
-- Bck> TrueNAS (DELL T320) 8x 4TB Ironwolf
-- Archive> LTO5/6 tapes
+- Archive> multiple LTO5/6 tapes
 
 Routing and firewall is handled by an virt. OPNsense (incl. Zenarmor) and a few multi-gig switches.
 
@@ -48,26 +50,23 @@ I host these main services either as LXC or VM:
 - Nextcloud
 - Vaultwarden, private hosted pw manager
 - Immich, automatic private photo & video backup
-- Home assistant, monitor solar
+- Home assistant, monitor solar (i.e. wallbox, batteries)
 - Audiobookshelf, web app to manage audiobooks and podcasts
 - Paperless ngx
 - Uptime Kuma, Beszel, Pulse & CheckMK, monitoring of most services and appliances
 - MeTube
 - Stirling-PDF
 
-In validation: NetBox, Homelable, Rackula
-
-Historically kept
-- Win Srv (DC/DNS)
-- Win 11 client (i.e. Veeam)
-- Heimdall, bookmark manager
-
-- I used to run VMware ESXi 8: Quantum DXi V5000 (De-Dup Appliance)
-- In validation: NetBox, Homelable, Rackula
+In validation, further testing: NetBox, Homelable, Rackula, Prometheus, Grafanam Helm, Terraform, Ansible
 
 🔭 I’m currently working on (DevOps, Kubernetes home-study):
 - Kubernetes cluster: K3S on Debian 13, RKE2 and Rancher w/ Longhorn on Rocky 10
 - a few Linux VM to catch up with their latest developments
+
+Historically kept
+- VMware ESXi 8: Quantum DXi V5000 (De-Dup Appliance)
+- Win Srv (DC/DNS) & Win 11 client (i.e. Veeam)
+- Heimdall, bookmark manager
 
 
 <img width="2101" height="3736" alt="PVE-cluster-and-PBS" src="https://github.com/user-attachments/assets/e1f59955-0935-4e01-84e7-2c0d0d891070" />
@@ -78,6 +77,5 @@ Historically kept
 
 <img width="2101" height="3736" alt="Homepage-Dashboard-p2" src="https://github.com/mat-automation/mat-automation/blob/main/homepage-p2.jpg" />
 
-Further projects in the near future:
-- Prometheus, Grafanam Helm, Terraform, Ansible 
-- VMware 9 & Veeam BR trials
+Further project plans in the future :
+- VMware 9 & Veeam BR trial
