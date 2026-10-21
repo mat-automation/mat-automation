@@ -31,13 +31,16 @@ At the core of my HomeLab runs Proxmox VE and Docker (LXC Container) nowadays to
 - 1x HUNSN RJ42, PVE (Intel N100, 32GB RAM)
 
 2x single node PVE nested Proxmox Backup Server:
-- 1x HUNSN RJ03, runs daily (Intel N5105, 32GB RAM)
-- 1x DELL T320, runs weekly + daily merged (Intel Xeon, 96GB RAM)
+- 1x HUNSN RJ03, daily, 14d max (Intel N5105, 32GB RAM)
+- 1x DELL T320, runs weekly & daily merged (Intel Xeon, 96GB RAM)
 
 Storages:
 - Main> QNAP TVS-951X 3x 18TB EXOS
 - Bck> DSM7 🤫 (Terramaster) mixed 27TB usable
 - Archive> multiple LTO5/6 tapes
+
+A QNAP hosts all my personal data and runs automated weekly backups on to a Terramaster nested DSM7 🤫
+Quarterly dumps go on to LTO5/6 tapes via Acronis Backup which were supposed to get swapped over regularly and stored externally.
 
 Routing and firewall is handled by an virt. OPNsense (incl. Zenarmor) and a few multi-gig switches.
 
@@ -63,10 +66,7 @@ In validation, further testing: NetBox, Homelable, Rackula, Prometheus, Grafanam
 - Kubernetes cluster: K3S on Debian 13, RKE2 and Rancher w/ Longhorn on Rocky 10
 - a few Linux VM to catch up with their latest developments
 
-Historically kept
-- VMware ESXi 8: Quantum DXi V5000 (De-Dup Appliance)
-- Win Srv (DC/DNS) & Win 11 client (i.e. Veeam)
-- Heimdall, bookmark manager
+Do you run a HomeLab? What services do you host? How do you handle constant security updates, downtime and backups?
 
 
 <img width="2101" height="3736" alt="PVE-cluster-and-PBS" src="https://github.com/user-attachments/assets/e1f59955-0935-4e01-84e7-2c0d0d891070" />
@@ -76,6 +76,12 @@ Historically kept
 <img width="2101" height="3736" alt="Homepage-Dashboard-p1" src="https://github.com/mat-automation/mat-automation/blob/main/homepage-p1.jpg" />
 
 <img width="2101" height="3736" alt="Homepage-Dashboard-p2" src="https://github.com/mat-automation/mat-automation/blob/main/homepage-p2.jpg" />
+
+
+Historically kept
+- VMware ESXi 8: Quantum DXi V5000 (De-Dup Appliance)
+- Win Srv (DC/DNS) & Win 11 client (i.e. Veeam)
+- Heimdall, bookmark manager
 
 Further project plans in the future :
 - VMware 9 & Veeam BR trial
